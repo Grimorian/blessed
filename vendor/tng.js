@@ -817,7 +817,7 @@ PNG.prototype.pixelToCell = function(pixel, ch) {
 
 // Taken from libcaca:
 PNG.prototype.getOutch = (function() {
-  var dchars = '????8@8@#8@8##8#MKXWwz$&%x><\\/xo;+=|^-:i\'.`,  `.        ';
+  var dchars = 'x▓▓▓██▓▓▒▒▓▓▒▒▒░░░░.⠉⠊⠋⠌⠍⠎⠏⠿###⠿⠏⠎⠍⠌⠋⠊⠉.░░░▒▒▓▓█▓█▓▓▒▒░░░░▒▒x'
 
   var luminance = function(pixel) {
     var a = pixel.a / 255
